@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<style>
+  .fragment.blur {
+    filter: blur(5px);
+  }
+  .fragment.blur.visible {
+    filter: none;
+  }
+.toutline{
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+</style>
+<section data-background-image="aivshuman.png">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p class="toutline">Generated with Deliberate using Stable Diffusion</p>
+</section>
+<section data-markdown data-background-image="aivshuman.png" data-background-opacity="0.1" data-background-gradient="radial-gradient(#333, #000)">
+  <textarea data-template>
+# AI CyberSec, ChatGPT and Post-humanism
+by Tech Shinobi
+---
+##  Reconnaissance
+### Introduction of Open-Source Intelligence (OSINT)
+  - Footprinting involves scanning for open ports, mapping the network topology, and searching for information on publicly available sources.
+  - OSINT is intelligence produced by collecting and analyzing public information with the purpose of answering a specific intelligence question.
+    - [Learn more from SANS Institute](https://www.sans.org/blog/what-is-open-source-intelligence/)
+---
+### Sources for OSINT
+<img src="https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt3adef1ea468e759e/63f68a53ad88dd10b4f6f6c5/Blog_-_What_is_OSINT_--01.png" style="width:200%; filter:contrast(150%) brightness(200%) drop-shadow(0px 0px 1px black);" />
+---
+### Sources for OSINT
+<img src="https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/bltb3eec04acf143254/63f68b40952945362ea19645/Blog_-_What_is_OSINT_-_Who_uses_OSINT.png" style="width:200%; filter:contrast(110%) brightness(130%) drop-shadow(0px 0px 1px black);" />
+---
+### Stages of the Intelligence Cycle
+<img src="https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blte2565e1ff3a84921/63f78117d8852010d57239fa/Blog_-_What_is_OSINT_-_Intelligence_Cycle.png" style="width:60%;" />
+---
+### Passive vs Active OSINT
+<img src="https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/bltfe14a86899bea805/63f78208d8852010d57239fe/Blog_-_What_is_OSINT_-_Passive_versus_Active_.png" style="width:200%; filter:contrast(300%) brightness(100%) drop-shadow(0px 0px 1px black);" />
+---
+### AI-OSINT
+- Generating profile photo, bio, resume and content post
+- Even videos and audio for alias account
+- Bypass web servie security check in social engineering and anti-reconnaissance
+- More details
+  - [The OSINTion and Trace Labs AMA - Part 1 - Aliases, Logging, ChatGPT](https://youtu.be/iP0UfmYCklQ)
+---
+### More Use case
+  - PimEyes face recognition for reverse image search, finding people
+  - Fake profile detector : We also need extra steps to detect AI generated data for inltelligence collection   
+  - ChatGPT currently cannot search the web but GPT4.0 will be, e.g. New Bing Chatbot or so called copilot that also based on GPT
+  - Use ChatGPT to write automated web Scraper/crawler Python script
+  - AI-OSINT can mitigate governance, ethical, legal, and social implications (GELSI) problems
+---
+### More tools
+  - SpiderFoot for threat intelligence and Attack Surface / vulnerability assessments and asset discovery
+  -  For proactive OSINT people
+     - [Awesome OSINT](https://github.com/jivoi/awesome-osint)
+     - [OSINT Techniques](https://www.osinttechniques.com/osint-tools.html)
+     - SANS OSINT Summit by SANS institute / SANS Cyber Defense
+  - Resources for privacy people to counter OSINT
+    - [Intel Techniques](https://inteltechniques.com/) (The Privacy, Security, and OSINT Show)
+    - [Techlore](https://techlore.tech/) (Video / Podcast / Resources)
+---
+## Introduction of ChatGPT
+
+It's a GPT language model powered chatbot by OpenAI. 
+---
+### Use cases
+- Finding Vulnerability / Threat Hunting
+- Writing Exploits/Patches
+- Polymorphic Malware / Incident response
+- Spear Phishing / Detection System 
+- payload delivery / SIEM Alerting
+
+More details
+  - [Hacking with ChatGPT: Five A.I. Based Attacks for Offensive Security by CISO Perspective](https://youtu.be/AwQE3jof63U)
+- [Microsoft Security Copilot](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot)
+
+---
+
+### More use cases
+- [What You Need to Know About OpenAI's New ChatGPT Bot - And How it Affects Cybersecurity? SANS Panel](https://www.youtube.com/watch?v=-zUOsO6i92I)
+- [Going Phishing with ChatGPT | The Cybrary Podcast](https://www.youtube.com/watch?v=gbJ4r-Rw-wM)
+- [0x8 - ChatGPT in Ethical Hacking & Cybersecurity Operations](https://www.youtube.com/watch?v=CsfThfJkj1A)
+- [The Impact of ChatGPT on Cybersecurity](https://www.youtube.com/watch?v=k-ySO25UlfM)
+- [Unleashing the Power of ChatGPT in Security Operations - Chris Stelzer, Microsoft](https://www.youtube.com/watch?v=makrFgELA1Y)
+- [Continuously Improving the Capability of Human Defenders with AI - Tahseen Shabab, Penfield.AI](https://www.youtube.com/watch?v=sRm4uWS7kkg)
+
+---
+
+### Risks
+- [OPWNAI (OpenAI+Pwn) by checkpoint research](https://research.checkpoint.com/2023/opwnai-cybercriminals-starting-to-use-chatgpt/)
+
+- [Bypassing ChatGPT's Safeguard and Easiest Way to use API](https://techshinobi.org/posts/bypass-chatgpt/)
+
+- [Threat Actors Abuse AI-Generated Youtube Videos to Spread Stealer Malware](https://cloudsek.com/blog/threat-actors-abuse-ai-generated-youtube-videos-to-spread-stealer-malware)
+
+- [GPT-4 is bigger and better than ChatGPT—but OpenAI won’t say why](https://www.technologyreview.com/2023/03/14/1069823/gpt-4-is-bigger-and-better-chatgpt-openai/)
+---
+### OpenAI's data breach:
+- [March 20 ChatGPT outage from OpenAI's blog](https://openai.com/blog/march-20-chatgpt-outage)
+
+- [How ChatGPT lied like hell to Professor Doug White about OpenAI's recent breach on Security Weekly](https://www.youtube.com/watch?v=fxeL17ZSQJg&t=739)
+
+- [Open Source Security Podcast discuss about OpenAI tried to blame open source](https://opensourcesecurity.io/2023/04/02/episode-369-openai-broke-chatgpt-then-tried-to-blame-open-source/)
+  - "I'm not afraid of ChatGPT. I'm afraid of OpenAI."
+- [Comments on OpenAI from TechShinobi](https://techshinobi.org/posts/cheapsd/#no-dall-e-no-midjourney-and-no-colab)
+  - "AI itself is not a threat but the capital behind it."
+
+  </textarea>
+</section>
+
+<section data-markdown data-background-image="https://estudioscavernarios.files.wordpress.com/2021/06/unnamed.jpg" data-background-opacity="0.1" data-background-gradient="radial-gradient(#333, #000)">
+  <textarea>
+
+## Deep-dive into Thinking
+
+- **Death of the Subject** challenges the traditional view of the autonomous individual.
+
+- **Posthumanism** challenges human superiority and explores new forms of existence and consciousness.
+
+- **Transhumanism** enhances human abilities through technology.
+
+- **Singularity** is when AI surpasses human intelligence.
+
+---
+### More Thinking
+
+- [Super-intelligence, Frankenstein, and Post-humanism: AI Ethics Beyond Data and Algorithmic Bias](https://youtu.be/SUTGWdrsbTs)
+- [The CIA Triad and ChatGPT: A Security Discussion](https://youtu.be/9-P4rTjYHYk)
+- [Deleuze - Control Societies & Cybernetic Posthumanism](https://www.youtube.com/watch?v=Hu4Cq_-bLlY)
+- [AI Art, OpenAI and Farewell to the Human](https://youtu.be/pwx1VZ0GwrI)
+---
+"Socrates tells a myth that before his time, the technology of writing is something that needs to be rejected. Because the technology of writing is going to destroy Humanity. Paradoxically, perhaps our definition of humanity today that it's about to be destroyed is literacy, by AI." 
+
+—[Plastic Pills](https://piped.video/watch?v=pwx1VZ0GwrI&t=1093)
+---
+<section data-markdown data-background-image="https://cualia.es/wp-content/uploads/2021/02/heidegger-arendt-0.jpg" data-background-opacity="0.1" data-background-gradient="radial-gradient(#333, #000)">
+
+"It is a presumption of the modern mind that the mind knows itself, but that is really the most difficult thing to know. The sad truth is that most evil is done by people who never make up their minds to be good or evil."
+
+ —Hannah Arendt
+
+"The danger of technology does not lie in technology itself. The essence of technology is by no means anything technological. Everywhere we remain unfree and chained to technology, whether we passionately affirm or deny it."
+
+ —Martin Heidegger
+---
+<section data-markdown data-background-image="intstl.jpg" data-background-opacity="0.1" data-background-gradient="radial-gradient(#333, #000)">
+
+### The real threat
+- [How the Internet was Stolen | Then & Now](https://youtu.be/oLLxpAZzy0s)
+
+- Last Week Tonight with John Oliver
+  - [Artificial Intelligence](https://youtu.be/Sqa8Zo2XWc4)
+  - [Data Brokers](https://youtu.be/wqn3gR1WTcA)
+  - [Government Surveillance](https://youtu.be/XEVlyP4_11M)
+  - [Tech Monopolies](https://youtu.be/jXf04bhcjbg)
+  - [Encryption](https://youtu.be/zsjZ2r9Ygzw)
+  - [Ransomware](https://youtu.be/WqD-ATqw3js)
+---
+<section data-markdown data-background-image="czo.png" data-background-opacity="0.1" data-background-gradient="radial-gradient(#333, #000)">
+
+### Teaser for Reading Books
+- Noam Chomsky
+  - [The False Promise of ChatGPT](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html)
+  - [Surviving the 21st Century](https://youtu.be/wJtfWZGxnGI)
+  - [Chomsky 's Requiem for the American Dream](https://youtu.be/HBx1NltliCs)
+
+- Slavoj Žižek
+  - [Slavoj Žižek & Yuval Noah Harari | Should We Trust Nature More than Ourselves?](https://youtu.be/3jjRq-CW1dc)
+  - [Slavoj Zizek Vs Will Self in Dangerous Ideas](https://youtu.be/CId1iOWQUuo)
+  - [Axworthy Lecture: Thinking the Human](https://www.youtube.com/watch?v=38alQSKtVbA)
+
+---
+
+### Making a difference
+- Stop supporting OpenAI 
+  - [Pause Giant AI Experiments: An Open Letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)
+  - [Closed AI Models Make Bad Baselines](https://hackingsemantics.xyz/2023/closed-baselines/)
+- Support open source projects
+  - [Awesome Totally Open ChatGPT](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+  - [Hello Dolly: Democratizing the magic of ChatGPT with open models](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)
+  - [Use Stable Diffusion instead of paid services](https://techshinobi.org/posts/cheapsd/)
+- [Support EFF (Electronic Frontier Foundation)](https://www.eff.org/about)
+
+---
+
+### Making more difference
+
+Build on business model that's open and democratic.
+- [Cooperative Ownership for the Digital Economy](https://youtu.be/hm82-sus1nE)
+- [This New Cooperative Business Model Could Change Everything](https://youtu.be/nRgZQHqb07A)
+- [Venture Capitalist vs. Worker Co-op Tech - All Things Co-op](https://youtu.be/jXXNep-htKg)
+- [How to stop poverty: start a worker-owned cooperative](https://youtu.be/LFyl0zz2yqs)
+- [Anu Puusa: The case for co-ops, the invisible giant of the economy | TED](https://youtu.be/4nCJRrNTlus)
+
+---
+
+### More resources for hackers
+ - [Tech coops list](https://github.com/hng/tech-coops)
+ - [7 co-op business principles for the open organization](https://opensource.com/open-organization/15/9/learn-from-co-ops)
+ - [Democracy at Work Institute](https://institute.coop/startup)
+ - [ICA Group](icagroup.org)
+ - [New York City Network of Worker Cooperatives](nycworker.coop/home)
+ - [The Socialist Entrepreneur](https://thesocialistentrepreneur.com/)
+
+---
+<section data-markdown data-background-image="shinobi.png" data-background-opacity="0.1" data-background-gradient="radial-gradient(#000, #000)" data-background-size="contain">
+
+## About me
+
+<p style="font-size:14vw; ">忍</p>
+
+<p style="font-size:40%;position: relative;top:45px">こころ&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp; &emsp;&emsp;やいば</p>
+<p style="position: relative;top:20px">心&emsp; &emsp; &emsp; &emsp;刃</p>
+<p>-Heart Under Blade-</p>
+
+
+[Tech Shinobi - A Technologist who Cares about People](https://techshinobi.org)
+
+  </textarea>
+</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
